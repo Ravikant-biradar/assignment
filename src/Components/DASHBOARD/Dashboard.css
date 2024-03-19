@@ -1,0 +1,226 @@
+.dashboardsection {
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 150vh;
+  width: 100vw;
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%) 0%
+    0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.profile {
+  position: relative;
+  position: relative;
+  left: 90vw;
+  height: 3vhpx;
+  width: 6vw;
+  border: 1px solid black;
+  background: transparent no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.imganddash {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mop {
+  height: 15vh;
+  width: 7vw;
+}
+
+.dashnum {
+  position: relative;
+  top: 2.5vh;
+  right: 2.5vw;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal normal bold 18px/25px Source Sans Pro;
+  letter-spacing: 0.01px;
+  color: #ffffffb3;
+  opacity: 0.84;
+}
+
+.h1 {
+  height: 7vh;
+  width: 50vw;
+  text-align: center;
+  padding: 3px;
+  font-size: 3vh;
+  margin: 2vh;
+  font: normal normal bold 18px/25px Source Sans Pro;
+  letter-spacing: 0.01px;
+  color: #ffffffb3;
+  opacity: 0.84;
+}
+
+.productivity {
+  display: flex;
+  margin-top: 2vh;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.pro-per {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1vh;
+}
+
+.bar {
+  height: 1vh;
+  width: 20vw;
+  position: relative;
+  left: 20vw;
+  border-radius: 20px;
+  background: #36a54680 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 1px solid #36a546;
+  opacity: 1;
+}
+
+.bar01 {
+  width: 10vw;
+}
+
+.bar02 {
+  width: 40vw;
+}
+
+.bar03 {
+  width: 55vw;
+}
+
+.bar04 {
+  width: 38vw;
+}
+
+.bar05 {
+  width: 37vw;
+}
+
+.bar06 {
+  width: 41vw;
+}
+
+.p {
+  font-size: 3.2vh;
+  position: relative;
+  right: 5vh;
+  font: normal normal normal 12px/16px Mulish;
+  letter-spacing: 0.01px;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.lastdiv {
+  display: flex;
+  overflow: hidden;
+}
+
+.hom-icon {
+  overflow: hidden;
+  height: 10px;
+  width: 10px;
+}
+
+.con-icon {
+  overflow: hidden;
+  height: 10px;
+  width: 10px;
+}
+
+.fix-div {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #254f2c;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/*  media querry starts here */
+
+@media screen and (max-width: 600px) {
+  .dashboardsection {
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .profile {
+    position: relative;
+    left: 80vw;
+    height: 8vhpx;
+    width: 16vw;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+
+  .mop {
+    height: 9.5vh;
+    width: 19vw;
+    position: relative;
+    top: 6vh;
+  }
+
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 9vh;
+  }
+
+  .h1 {
+    border: 1px solid rgb(64, 63, 63);
+    height: 4vh;
+    width: 80vw;
+    text-align: center;
+    background-color: rgb(197, 160, 160);
+    font-size: 2vh;
+    margin-left: 2vw;
+    border-radius: 20px;
+  }
+
+  .productivity {
+    display: flex;
+    margin-top: 12vh;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 5vw;
+  }
+
+  .percentage {
+    text-align: left;
+    font: normal normal normal 14px/19px Mulish;
+    letter-spacing: 0.01px;
+    color: #36a546;
+    opacity: 1;
+  }
+
+  .bar {
+    background-color: green;
+    position: relative;
+    left: 2.8vw;
+    border-radius: 20px;
+    margin: 1vh;
+  }
+
+  .p {
+    font-size: 2.2vh;
+    position: relative;
+    right: 1vh;
+  }
+}

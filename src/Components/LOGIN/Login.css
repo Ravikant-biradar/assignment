@@ -1,0 +1,138 @@
+.loginsection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  gap: 4vh;
+  background: transparent linear-gradient(180deg, #000000 0%, #000e09 100%);
+  color: aliceblue;
+}
+
+.logo {
+  background: transparent 0% 0% no-repeat padding-box;
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+.loginform {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 2vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.input01 {
+  mix-blend-mode: normal;
+  opacity: 1;
+  border: none;
+  border-radius: 20px;
+  margin-top: 15vh;
+  color: white;
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+}
+
+.input02 {
+  mix-blend-mode: normal;
+  border: none;
+  color: white;
+  opacity: 1;
+  border-radius: 20px;
+  background: #1f191966 0% 0% no-repeat padding-box;
+  box-shadow: inset 0px 3px 3px #fffdfd40, 3px 3px 3px #4a494947;
+}
+
+.loginbtn {
+  height: 8.5vh;
+  border-radius: 20px;
+  width: 25vw;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8cff0026;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #ffffff8c;
+  opacity: 1;
+}
+
+.registerbtn {
+  height: 8.5vh;
+  width: 25vw;
+  border-radius: 20px;
+  background: transparent
+    linear-gradient(180deg, #00ff2580 0%, #000000 100%, #36a54680 100%) 0% 0%
+    no-repeat padding-box;
+  mix-blend-mode: normal;
+  border: 2px solid #8cff0026;
+  opacity: 1;
+  text-align: center;
+  font: normal normal bold 16px/21px Mulish;
+  letter-spacing: 0.02px;
+  color: #ffffff8c;
+  opacity: 1;
+}
+
+.password {
+  text-align: center;
+  font: normal normal normal 15px/20px Mulish;
+  letter-spacing: 0.02px;
+  color: #36a546;
+  opacity: 1;
+}
+
+/*  media querries starts here  */
+
+@media screen and (max-width: 600px) {
+  .loginsection {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+  }
+  .logo-divs {
+    position: relative;
+    bottom: 15vh;
+  }
+  .logo {
+    background: transparent 0% 0% no-repeat padding-box;
+    mix-blend-mode: normal;
+    opacity: 1;
+    margin-top: 15vh;
+  }
+
+  .input01 {
+    width: 65vw;
+    height: 4vh;
+    padding-left: 5vw;
+    color: aliceblue;
+  }
+
+  .input02 {
+    padding-left: 5vw;
+    width: 65vw;
+    height: 4vh;
+    margin: 1.3vh;
+    color: aliceblue;
+  }
+
+  .loginbtn {
+    width: 65vw;
+    height: 5vh;
+  }
+
+  .registerbtn {
+    width: 65vw;
+    height: 5vh;
+  }
+
+  .password {
+    font-size: 6vw;
+  }
+}
