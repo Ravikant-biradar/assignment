@@ -63,6 +63,7 @@
   margin-bottom: 5vh;
   box-shadow: inset 0px 4px 0px #00000040;
   color: #ffffffb3;
+  background-color: #000000;
 }
 
 .search {
@@ -79,8 +80,9 @@
   justify-content: center;
   align-items: center;
   gap: 1vh;
+  color: antiquewhite;
 }
-
+/* yjror */
 .apidatadiv {
   height: 40vh;
   font-size: 4vh;
@@ -88,6 +90,8 @@
   display: flex;
   flex-direction: column;
   gap: 3vh;
+  color: rgb(211, 209, 205);
+  background-color: #423e3e;
   padding-top: 5vh;
   padding-left: 4vw;
   align-content: center;
@@ -148,9 +152,9 @@
 }
 
 .apifiltercss {
-  position: relative;
-  left: 15vw;
-  bottom: 183vh;
+  position: absolute;
+  left: 37vw;
+  top: 55vh;
 }
 
 .apidatadivcss {
@@ -179,7 +183,7 @@
     margin-top: 5vh;
     border-radius: 20px;
     margin-bottom: 5vh;
-    color: #000000;
+    color: #eee8e8;
     font-family: sans-serif;
   }
 
@@ -191,12 +195,17 @@
     flex-direction: column;
     gap: 3vh;
     padding-top: 4vh;
-    padding-left: 4vw;
+    padding-left: vw;
     border-radius: 20px;
     mix-blend-mode: normal;
     opacity: 1;
     color: rgb(211, 209, 205);
     background-color: #423e3e;
+  }
+  .search {
+    position: absolute;
+    top: 26vh;
+    color: rgb(0, 0, 0);
   }
 
   .extraone {
@@ -206,6 +215,7 @@
   .apifiltercss {
     position: absolute;
     top: 35vh;
+    left: 17vw;
   }
 
   .extraonecss {

@@ -44,7 +44,7 @@ function Registration() {
               setname(e.target.value);
             }}
             placeholder="name"
-            className="input01 reginput01"
+            className="reginput reginput01"
             type="text"
           />
           <input
@@ -52,7 +52,7 @@ function Registration() {
               setemail(e.target.value);
             }}
             placeholder="email"
-            className="input02 reginput"
+            className="reginput reginput02"
             type="email"
           />
           <input
@@ -60,7 +60,7 @@ function Registration() {
               setpassword(e.target.value);
             }}
             placeholder="password"
-            className="input02 reginput"
+            className="reginput reginput03"
             type="password"
           />
           <button type="submit" className="sighbtn">

@@ -30,7 +30,7 @@ function Login() {
             const user = userCredential.user;
           }
         );
-        navigate('/dashboard')
+        navigate("/dashboard");
       } catch (error) {
         seterr(true);
         console.log("error");
@@ -65,14 +65,14 @@ function Login() {
             Instant Login
           </button>
 
-          <button type="submit" className="registerbtn">
+          <button type="submit" className="loginbtn">
             Login
           </button>
           <button
             onClick={() => {
               navigate("/registration");
             }}
-            className="registerbtn"
+            className="loginbtn"
           >
             Register Here
           </button>
